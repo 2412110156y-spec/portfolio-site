@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(135deg, lightgreen, white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.counter-box {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px gray;
+
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

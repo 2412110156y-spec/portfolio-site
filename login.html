@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ログインアプリ</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body class = "login-page">
+    <div class="login-box">
+
+    <section>
+        <h1>ログインアプリ</h1>
+        <p>学習用のログイン判定アプリです</p>
+        <input id = "userId" type = "text" placeholder = "ID">
+        <input id="password" type="password" placeholder="パスワード">
+
+        <button onclick="login()">ログイン</button>
+
+        <p id="loginResult"></p>
+
+        <button class = "back-button" onclick="location.href='index.html'">
+            戻る
+        </button>
+    </section>
+
+    <script src="login.js"></script>
+</body>
+</html>

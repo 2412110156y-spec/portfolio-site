@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Haruto Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <a href="#">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#study">STUDY</a>
+    <a href="#works">WORKS</a>
+    </nav>
+
+    <header>
+        <h1>Haruto Portfolio</h1>
+        <p>Web開発を学習中の情報学部生です</p>
+        <button onclick="location.href='#works'">
+        制作物を見る
+        </button>
+        <button onclick="location.href='https://google.com'">
+        Google検索
+        </button>
+
+    </header>
+
+    <section id = "about">
+        <h2>自己紹介</h2> 
+        <p>近畿大学情報学部で情報技術を学んでいます。</p> 
+        <p>現在はHTML、CSS、JavaScriptを使ったWeb開発を学習しています。</p>
+    </section>
+
+    <section id = "study">
+        <h2>学習記録</h2>
+        <ul>
+            <li>Day1：Web開発の全体像</li>
+            <li>Day5：HTML・CSS・JavaScriptの基礎</li>
+            <li>Day10：ログインアプリ</li>
+            <li>Day13：ToDoアプリ</li>
+            <li>Day14：ポートフォリオサイト設計</li>
+        </ul>
+    </section>
+    
+    <section id = "works">
+    <h2>制作物</h2>
+
+    <div class="works">
+        <div class="card"
+        onclick="location.href = 'login.html'">
+            <h3>ログインアプリ</h3>
+            <p>IDとパスワードを入力して、ログイン判定を行うアプリです。</p>
+        </div>
+
+        <div class="card"
+        onclick="location.href = 'counter.html'">
+            <h3>カウンターアプリ</h3>
+            <p>ボタンを押すと数字が増減するアプリです。</p>
+        </div>
+
+        <div class="card">
+            <h3>ToDoアプリ</h3>
+            <p>やることを追加・表示・削除できるアプリです。</p>
+        </div>
+    </div>
+    </section>
+
+    <section id = "contact">
+        <h2>Contact</h2>
+        <p>
+            GitHub: 作成後に掲載予定
+        </p>
+
+        <p>
+        Email: haruto@example.com
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Haruto</p>
+    </footer>
+
+    
+</body>
+</html>
