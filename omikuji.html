@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>おみくじアプリ</title>
+    <link rel="stylesheet" href="omikuji.css">
+</head>
+<body>
+    <div class="omikuji-box">
+
+        <h1>おみくじアプリ</h1>
+
+        <button onclick="drawOmikuji()">
+            おみくじを引く
+        </button>
+
+        <p id="result"></p>
+        <p id="message"></p>
+        <p id="item"></p>
+        <p id="count"></p>
+
+        <ul id="history"></ul>
+
+        <button class = "back-button" onclick="location.href='index.html'">
+            戻る
+        </button>
+
+        <div id="summary"></div>
+    </div>
+
+    <script src="omikuji.js"></script>
+
+</body>
+</html>

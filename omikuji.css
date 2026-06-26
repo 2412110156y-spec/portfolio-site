@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(135deg, yellow, white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+.omikuji-box {
+    background: oklch(100% 0.00011 271.152);
+    width: 400px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px gray;
+
+    text-align: center;
+}
+
+.omikuji-box button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.omikuji-box button:hover {
+    background-color: rgb(206, 206, 138);
+}
+
+#result {
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-0 {
+    color: red;
+    font-size: 50px;
+}
+
+.result-1 {
+    color: orange;
+    font-size: 30px;
+}
+
+.result-2 {
+    color: green;
+    font-size: 20px;
+}
+
+.result-3 {
+    color: gray;
+    font-size: 15px;
+}
+
+.back-button {
+    background-color: #eeeeee !important;
+}
+
+#history {
+    list-style: none;
+    padding: 0;
+}
+
+#summary {
+    background-color: #b0c1a9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: monospace;
+}
+.summary-row {
+    display: grid;
+    grid-template-columns: 50px 1fr 40px;
+    gap: 10px;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.graph-row {
+    display: grid;
+    grid-template-columns: 50px 1fr 40px;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.graph-label {
+    font-weight: bold;
+}
+
+.graph-area {
+    background-color: #eeeeee;
+    height: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.graph-bar {
+    height: 100%;
+    border-radius: 8px;
+}
+
+.daikichi-bar {
+    background-color: red;
+}
+
+.chukichi-bar {
+    background-color: orange;
+}
+
+.shokichi-bar {
+    background-color: green;
+}
+
+.kyo-bar {
+    background-color: gray;
+}
+
+.graph-count {
+    text-align: right;
+}
